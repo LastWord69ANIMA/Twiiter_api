@@ -9,16 +9,14 @@ bearer_token = "*****"
 
 client = tweepy.Client(bearer_token)
 
-user_id = 347849994
+user_id = *******
 
 def main():
         response = client.get_users_tweets(
                                         user_id,
-                                        max_results=100
+                                        max_results=30
                                         
                                         )
-
-        tweet_data = []
 
         # By default, only the ID and text fields of each Tweet will be returned
         for tweet in response.data:
