@@ -33,5 +33,5 @@ jobs:
           pip install tweepy
       - name: Run script
         run: |
-          # Twitter_API+LineBot4.pyの実行
-          python Twitter_API+LineBot44.py
+          # Twitter_API+LineBot.pyの実行
+          python Twitter_API+LineBot.py
